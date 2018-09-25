@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="topic_creator_fbtn_hw"> 64dp </dimen>
+    <dimen name="header_1"> 32sp </dimen>
+    <dimen name="padding_16"> 16dp </dimen>
+    <dimen name="padding_8"> 8dp </dimen>
+</resources>

@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/newCreateTripText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/write_trip_name"
+        android:textSize="@dimen/header_1"
+        android:padding="@dimen/padding_16"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newTripName"
+        android:layout_margin="10dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:labelFor="@+id/newCreateTripText"
+        android:inputType="text"
+        android:hint="@string/write_trip_name"
+        android:padding="@dimen/padding_16"
+        android:layout_below="@id/newCreateTripText"
+        />
+    <!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cancel_create_trip"
+        android:padding="@dimen/padding_8"
+        android:text="@string/cancel"
+        android:layout_below="@+id/newTripName"
+        style="?android:attr/buttonBarButtonStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/done_create_trip"
+        android:padding="@dimen/padding_8"
+        android:text="@string/done"
+        android:layout_below="@+id/newTripName"
+        android:layout_toEndOf="@+id/cancel_create_trip"
+        style="?android:attr/buttonBarButtonStyle"
+        />
+    -->
+
+</RelativeLayout>
